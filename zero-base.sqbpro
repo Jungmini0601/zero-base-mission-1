@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="C:/Users/82105/zero-base/kimjungmin/zero-base.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure browser pragmas query" current="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="2890"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,15:mainsqlite_sequence"/><default_encoding codec=""/><browse_table_settings/></tab_browse><tab_sql><sql name="SQL 1">CREATE TABLE &quot;wifiInfo&quot;(
+  &quot;X_SWIFI_MGR_NO&quot; TEXT,
+  &quot;X_SWIFI_WRDOFC&quot; TEXT,
+  &quot;X_SWIFI_MAIN_NM&quot; TEXT,
+  &quot;X_SWIFI_ADRES1&quot; TEXT,
+  &quot;X_SWIFI_ADRES2&quot; TEXT,
+  &quot;X_SWIFI_INSTL_FLOOR&quot; TEXT,
+  &quot;X_SWIFI_INSTL_TY&quot; TEXT,
+  &quot;X_SWIFI_INSTL_MBY&quot; TEXT,
+  &quot;X_SWIFI_SVC_SE&quot; TEXT,
+  &quot;X_SWIFI_CMCWR&quot; TEXT,
+  &quot;X_SWIFI_CNSTC_YEAR&quot; TEXT,
+  &quot;X_SWIFI_INOUT_DOOR&quot; TEXT,
+  &quot;X_SWIFI_REMARS3&quot; TEXT,
+  &quot;LAT&quot; REAL,
+  &quot;LNT&quot; REAL,
+  &quot;WORK_DTTM&quot; TEXT,
+  PRIMARY KEY(&quot;X_SWIFI_MGR_NO&quot;)
+);
+
+CREATE TABLE history(
+  &quot;ID&quot; INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
+  &quot;LAT&quot; REAL,
+  &quot;LNT&quot; REAL,
+  &quot;HISTORYAT&quot; REAL
+);
+</sql><current_tab id="0"/></tab_sql></sqlb_project>
